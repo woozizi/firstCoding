@@ -1,8 +1,9 @@
-영화 검색 사이트
+# 영화 검색 사이트
 
-프로젝트 소개
+### 프로젝트 소개
 
 TMDB의 API를 활용하여 인기영화를 확인할 수 있고 원하는 영화를 검색할 수 있습니다.
+
 HTML, CSS JavaScript를 활용한 프로젝트 입니다.
 
 주요기능
@@ -18,13 +19,31 @@ CSS
 JavaScript
 
 프로젝트 구조
-project-directory/
-├── index.html      # 메인 HTML 파일
-├── styles.css      # 전체 스타일링
-├── modal.css       # 모달 창 스타일링
-├── app.js          # 주요 로직 및 기능
-├── ui.js           # UI 제어 로직
-└── api.js          # API 요청 및 데이터 처리
+
+```bash
+.
+├── api.js
+├── app.js
+├── index.html
+├── modal.css
+├── movie.txt
+├── movieSearch.txt
+├── node_modules
+│   └── debounce
+│       ├── index.d.ts
+│       ├── index.js
+│       ├── license
+│       ├── package.json
+│       └── readme.md
+├── package-lock.json
+├── package.json
+├── storage.js
+├── styles.css
+├── txt.txt
+└── ui.js
+
+3 directories, 17 files
+```
 
 
 이메일 : jongwk77@gmail.com 
